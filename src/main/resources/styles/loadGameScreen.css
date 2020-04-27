@@ -1,0 +1,54 @@
+@font-face {
+    src: url("../fonts/Rubik-Regular.ttf");
+}
+
+.mainPane {
+    -fx-background-image: url("../images/loadgamescreen/bg.png");
+    -fx-min-width: 800;
+    -fx-min-height: 600;
+    -fx-max-width: 800;
+    -fx-max-height: 600;
+}
+
+.pathTextField {
+    -fx-font-family: "Rubik";
+    -fx-font-size: 14pt;
+    -fx-font-weight: 500;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: transparent;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-color: #14f1d9;
+    -fx-border-width: 2;
+    -fx-min-width: 360;
+    -fx-max-width: 360;
+    -fx-alignment: center;
+    -fx-translate-x: 350;
+    -fx-translate-y: 280;
+}
+
+.fileButton {
+    -fx-image: url("../images/loadgamescreen/btn-file.png");
+    -fx-opacity: 0.75;
+    -fx-translate-x: 680;
+    -fx-translate-y: 290;
+}
+
+.fileButton:hover {
+    -fx-opacity: 1;
+}
+
+.nextButton {
+    -fx-font-family: "Rubik";
+    -fx-font-size: 14pt;
+    -fx-font-weight: 500;
+    -fx-text-fill: #091744;
+    -fx-background-radius: 50;
+    -fx-background-color: #14f1d9;
+    -fx-padding: 12 60 12 60;
+    -fx-translate-x: 440;
+    -fx-translate-y: 365;
+}
+
+.nextButton:hover {
+    -fx-background-color: #64ffe9;
+}

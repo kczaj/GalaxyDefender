@@ -1,0 +1,42 @@
+.mainPane {
+    -fx-background-image: url("../images/startscreen/bg.png");
+    -fx-min-width: 800;
+    -fx-min-height: 600;
+    -fx-max-width: 800;
+    -fx-max-height: 600;
+}
+
+.newGameButton {
+    -fx-image: url("../images/startscreen/btn-new-game.png");
+    -fx-opacity: 0.75;
+    -fx-translate-x: 55;
+    -fx-translate-y: 195;
+}
+.newGameButton:hover {
+    -fx-opacity: 1;
+    -fx-translate-y: 185;
+}
+
+.loadGameButton {
+    -fx-image: url("../images/startscreen/btn-load-game.png");
+    -fx-opacity: 0.75;
+    -fx-translate-x: 297.5;
+    -fx-translate-y: 195;
+}
+
+.loadGameButton:hover {
+    -fx-opacity: 1;
+    -fx-translate-y: 185;
+}
+
+.aboutGameButton {
+    -fx-image: url("../images/startscreen/btn-about-game.png");
+    -fx-opacity: 0.75;
+    -fx-translate-x: 540;
+    -fx-translate-y: 195;
+}
+
+.aboutGameButton:hover {
+    -fx-opacity: 1;
+    -fx-translate-y: 185;
+}

@@ -1,0 +1,45 @@
+@font-face {
+    src: url("../fonts/Rubik-Regular.ttf");
+}
+
+.mainPane {
+    -fx-background-image: url("../images/aboutgamescreen/bg.png");
+    -fx-min-width: 800;
+    -fx-min-height: 600;
+    -fx-max-width: 800;
+    -fx-max-height: 600;
+}
+
+.titleLabel {
+    -fx-font-family: "Rubik";
+    -fx-font-size: 28pt;
+    -fx-text-fill: #ffffff;
+    -fx-translate-x: 50;
+    -fx-translate-y: 60;
+}
+
+.textLabel {
+    -fx-font-family: "Rubik";
+    -fx-font-size: 12pt;
+    -fx-text-fill: #ffffff;
+    -fx-min-width: 450;
+    -fx-max-width: 450;
+    -fx-translate-x: 50;
+    -fx-translate-y: 140;
+}
+
+.backButton {
+    -fx-font-family: "Rubik";
+    -fx-font-size: 14pt;
+    -fx-font-weight: 500;
+    -fx-text-fill: #091744;
+    -fx-background-radius: 50;
+    -fx-background-color: #14f1d9;
+    -fx-padding: 12 60 12 60;
+    -fx-translate-x: 580;
+    -fx-translate-y: 520;
+}
+
+.backButton:hover {
+    -fx-background-color: #64ffe9;
+}

@@ -1,0 +1,56 @@
+@font-face {
+    src: url("../fonts/Rubik-Regular.ttf");
+}
+
+.mainPane {
+    -fx-background-image: url("../images/inputnamescreen/bg.png");
+    -fx-min-width: 800;
+    -fx-min-height: 600;
+    -fx-max-width: 800;
+    -fx-max-height: 600;
+}
+
+.playerTextField {
+    -fx-font-family: "Rubik";
+    -fx-font-size: 14pt;
+    -fx-font-weight: 500;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: transparent;
+    -fx-opacity: 0.5;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-color: #14f1d9;
+    -fx-border-width: 2;
+    -fx-min-width: 250;
+    -fx-max-width: 250;
+    -fx-alignment: center;
+}
+
+.playerTextField:focused {
+    -fx-opacity: 1;
+}
+
+#leftPlayerTextField {
+    -fx-translate-x: 400;
+    -fx-translate-y: 200;
+}
+
+#rightPlayerTextField {
+    -fx-translate-x: 400;
+    -fx-translate-y: 275;
+}
+
+.nextButton {
+    -fx-font-family: "Rubik";
+    -fx-font-size: 14pt;
+    -fx-font-weight: 500;
+    -fx-text-fill: #091744;
+    -fx-background-radius: 50;
+    -fx-background-color: #14f1d9;
+    -fx-padding: 12 60 12 60;
+    -fx-translate-x: 440;
+    -fx-translate-y: 365;
+}
+
+.nextButton:hover {
+    -fx-background-color: #64ffe9;
+}

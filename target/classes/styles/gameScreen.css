@@ -1,0 +1,228 @@
+@font-face {
+    src: url("../fonts/DS-Digital.ttf");
+}
+
+@font-face {
+    src: url("../fonts/Rubik-Regular.ttf");
+}
+
+.mainPane {
+    -fx-background-image: url("../images/gamescreen/bg.png");
+    -fx-min-width: 800;
+    -fx-min-height: 600;
+    -fx-max-width: 800;
+    -fx-max-height: 600;
+}
+
+.startGameButton {
+    -fx-font-family: "Rubik";
+    -fx-font-size: 16pt;
+    -fx-font-weight: 500;
+    -fx-text-fill: #091744;
+    -fx-background-radius: 50;
+    -fx-background-color: #14f1d9;
+    -fx-padding: 15 60 15 60;
+    -fx-translate-x: 305;
+    -fx-translate-y: 280;
+}
+
+.startGameButton:hover {
+    -fx-background-color: #64ffe9;
+}
+
+.topPane {
+    -fx-background-image: url("../images/gamescreen/bg-top-pane.png");
+    -fx-min-width: 800;
+    -fx-min-height: 90;
+    -fx-max-width: 800;
+    -fx-max-height: 90;
+}
+
+.leftPlayerNameLabel {
+    -fx-font-family: "DS-Digital";
+    -fx-font-size: 18pt;
+    -fx-text-fill: #ffffff;
+    -fx-min-width: 150;
+    -fx-min-height: 25;
+    -fx-max-width: 150;
+    -fx-max-height: 25;
+    -fx-translate-x: 66;
+    -fx-translate-y: 12;
+    -fx-alignment: top-left;
+}
+
+.leftPlayerPointsLabel {
+    -fx-font-family: "DS-Digital";
+    -fx-font-size: 28pt;
+    -fx-text-fill: #00afe7;
+    -fx-min-width: 270;
+    -fx-min-height: 35;
+    -fx-max-width: 270;
+    -fx-max-height: 35;
+    -fx-translate-x: 55;
+    -fx-translate-y: 55;
+    -fx-alignment: top-left;
+}
+
+.rightPlayerNameLabel {
+    -fx-font-family: "DS-Digital";
+    -fx-font-size: 18pt;
+    -fx-text-fill: #ffffff;
+    -fx-min-width: 150;
+    -fx-min-height: 25;
+    -fx-max-width: 150;
+    -fx-max-height: 25;
+    -fx-translate-x: 584;
+    -fx-translate-y: 12;
+    -fx-alignment: top-right;
+}
+
+.rightPlayerPointsLabel {
+    -fx-font-family: "DS-Digital";
+    -fx-font-size: 28pt;
+    -fx-text-fill: #00afe7;
+    -fx-min-width: 270;
+    -fx-min-height: 35;
+    -fx-max-width: 270;
+    -fx-max-height: 35;
+    -fx-translate-x: 475;
+    -fx-translate-y: 55;
+    -fx-alignment: top-right;
+}
+
+.levelLabel {
+    -fx-font-family: "DS-Digital";
+    -fx-font-size: 18pt;
+    -fx-text-fill: #00afe7;
+    -fx-text-alignment: center;
+    -fx-min-width: 60;
+    -fx-translate-x: 370;
+    -fx-translate-y: 30;
+    -fx-alignment: top-center;
+}
+
+.bottomPane {
+    -fx-background-image: url("../images/gamescreen/bg-bottom-pane.png");
+    -fx-min-width: 800;
+    -fx-min-height: 70;
+    -fx-max-width: 800;
+    -fx-max-height: 70;
+    -fx-translate-y: 530;
+}
+
+.timeLabel {
+    -fx-font-family: "DS-Digital";
+    -fx-font-size: 24pt;
+    -fx-text-fill: #00afe7;
+    -fx-text-alignment: center;
+    -fx-min-width: 80;
+    -fx-translate-x: 360;
+    -fx-translate-y: 21;
+    -fx-alignment: top-center;
+}
+
+.saveGameButton {
+    -fx-image: url("../images/gamescreen/btn-save.png");
+    -fx-opacity: 0.5;
+    -fx-translate-x: 12;
+    -fx-translate-y: 30;
+}
+
+.saveGameButton:hover {
+    -fx-opacity: 1;
+}
+
+.pauseGameButton {
+    -fx-image: url("../images/gamescreen/btn-pause.png");
+    -fx-opacity: 0.5;
+    -fx-translate-x: 581;
+    -fx-translate-y: 30;
+}
+
+.pauseGameButton:hover {
+    -fx-opacity: 1;
+}
+
+.leftPlayerShip {
+    -fx-image: url("../images/gamescreen/ship.png");
+    -fx-translate-y: 460;
+}
+
+.rightPlayerShip {
+    -fx-image: url("../images/gamescreen/ship.png");
+    -fx-translate-y: 460;
+}
+
+.boxPane {
+    -fx-background-image: url("../images/gamescreen/bg-box-pane.png");
+    -fx-min-width: 424;
+    -fx-min-height: 525;
+    -fx-max-width: 424;
+    -fx-max-height: 525;
+    -fx-translate-x: 188;
+    -fx-translate-y: 73;
+}
+
+.boxButton {
+    -fx-font-family: "Rubik";
+    -fx-font-size: 16pt;
+    -fx-font-weight: 500;
+    -fx-text-fill: #091744;
+    -fx-background-radius: 50;
+    -fx-background-color: #14f1d9;
+    -fx-padding: 15 60 15 60;
+}
+
+.boxButton:hover {
+    -fx-background-color: #64ffe9;
+}
+
+#resumeGameBoxButton {
+    -fx-translate-x: 115;
+    -fx-translate-y: 160;
+}
+
+#saveGameBoxButton {
+    -fx-translate-x: 115;
+    -fx-translate-y: 230;    
+}
+
+#quitGameBoxButton {
+    -fx-translate-x: 115;
+    -fx-translate-y: 300;   
+}
+
+#playAgainBoxButton {
+    -fx-padding: 15 30 15 30; 
+    -fx-translate-x: 12;
+    -fx-translate-y: 270;    
+}
+
+#quitBoxButton {
+    -fx-translate-x: 225;
+    -fx-translate-y: 270;
+}
+
+.subtitleBoxLabel {
+    -fx-font-family: "Rubik";
+    -fx-font-size: 16pt;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;
+    -fx-min-width: 405;
+    -fx-max-width: 405;
+    -fx-translate-x: 9.5;
+    -fx-translate-y: 145;
+    -fx-alignment: top-center;
+}
+
+.titleBoxLabel {
+    -fx-font-family: "Rubik";
+    -fx-font-size: 30pt;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;
+    -fx-min-width: 405;
+    -fx-max-width: 405;
+    -fx-translate-x: 9.5;
+    -fx-translate-y: 180;
+    -fx-alignment: top-center;
+}
